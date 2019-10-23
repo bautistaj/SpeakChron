@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">SpeakChron</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,25 +20,16 @@
             <a class="nav-item nav-link active" href="#home">Inicio <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#aboutus">Nosotros</a>
             <a class="nav-item nav-link" href="#services">Servicios y Cursos</a>
-            <a class="nav-item nav-link" href="#contact">Contacto</a>
             </div>
         </div>
     </nav>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://picsum.photos/id/800/800/300" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="https://picsum.photos/id/865/800/300" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="https://picsum.photos/id/866/800/300" class="d-block w-100" alt="...">
+            <img src="./dist/img/one.jpeg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,13 +41,14 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <br>
     <section id="home">
-        <h1>Inicio</h1>
+        <h1 class="text-primary">Inicio</h1>
         <div class="card-columns">
             <div class="card">
-                <img src="https://picsum.photos/200/150?random=2" class="card-img-top" alt="...">
+                <img src="./dist/img/three.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Nuestra metodología y cursos</h5>
+                    <h5 class="card-title text-primary">Nuestra metodología y cursos</h5>
                     <p class="card-text">
                             En la nueva era de la globalización Ser bilingüe es una necesidad para todos y cada uno de nosotros, 
                             con SpeakChron el objetivo de ser bilingüe puede ser alcanzado con éxito, 
@@ -66,9 +58,9 @@
                 </div>
             </div>
             <div class="card">
-                <img src="https://picsum.photos/200/150?random=2" class="card-img-top" alt="...">
+                <img src="./dist/img/three.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Método</h5>
+                    <h5 class="card-title text-primary">Método</h5>
                     <p class="card-text">
                             En SpeakChron te enseñaremos desde el primer momento a estructurar y entender el idioma, 
                             llevando a cabo 4 habilidades fundamentales (hablar, escuchar, escribir y leer) 
@@ -77,9 +69,9 @@
                 </div>
             </div>
             <div class="card">
-                <img src="https://picsum.photos/200/150?random=2" class="card-img-top" alt="...">
+                <img src="./dist/img/three.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Nuestros docentes</h5>
+                    <h5 class="card-title text-primary">Nuestros docentes</h5>
                     <p class="card-text">Son facilitadores que dominan su disciplina y que, 
                         a través de metodologías activas, 
                         ofrecen las herramientas necesarias para que los estudiantes comprendan el mundo desde diversos lenguajes, 
@@ -89,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <h3>¿Qué te ofrece SpeackChron?</h3>
+        <h3 class="text-primary">¿Qué te ofrece SpeackChron?</h3>
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action">Obtendrás clases con conversación en el idioma en todo momento.</a>
             <a href="#" class="list-group-item list-group-item-action">Aprenderás en un ambiente agradable, cordial y entretenido.</a>
@@ -100,9 +92,9 @@
         </div>
         
     </section>
-
+    <br>
     <section id="aboutus">
-        <h3>Misión</h3>
+        <h3 class="text-primary">Misión</h3>
         <p>
             Somos una escuela especializada en la enseñanza del idioma Inglés con estrictos estándares de calidad y personal 
             altamente capacitado. En SpeakChron estámos comprometidos con México y su educación, 
@@ -110,21 +102,22 @@
             Continuar pasivos como la gran mayoría de organizaciones dedicadas a la educación ó recapacitar y 
             asumir con valor y seriedad el reto de educar.  
         </p>
-        <h3>Visión</h3>
+        <h3 class="text-primary">Visión</h3>
         <p>
             Nuestro objetivo es marcar diferencia en nuestra sociedad siendo así la mejor opción a nivel nacional e internacional,
             cumpliendo todas y cada una de las expectativas de nuestro alumnos, 
             siendo eficaces con nuestro sistema y empleando un control de calidad para otorgar un servicio que dé 
             resultados a corto plazo.  
         </p>
-        <h3>Valores</h3>
+        <h3 class="text-primary">Valores</h3>
         <p>
             Para tener éxito en SpeakChron es importante que sus miembros empleen: 
             respeto, humildad, honestidad lealtad y disciplina dentro y fuera de la empresa, 
             ya que como educadores deberán enseñar con el ejemplo.
         </p>
 
-        <h3>¿Por qué elegir SpeakChron?</h3>
+        <h3 class="text-primary">¿Por qué elegir SpeakChron?</h3>
+        <br>
         <div id="accordion">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -172,16 +165,65 @@
                 </div>
             </div>
         </div>
+        <br>
+        <h3 class="text-primary">Nuestros clientes</h3>
+        <br>
+        <div class="card-columns">
+            <div class="card">
+                <img src="./dist/img/herdez.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+                <img src="./dist/img/maya.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+                <img src="./dist/img/raimix.jpeg" class="card-img-top" alt="...">
+            </div>
+        </div>
     </section>
-
+    <br>
     <section id="services">
-        <h1>Servicios y Cursos</h1>
+        <h1 class="text-primary">Servicios y Cursos</h1>
+        <ol>
+            <li>Cursos semi-intensivos con duración de 1.5 hrs 4 días a la semana.</li>
+            <p>Hoy en día es esencial capacitarse en el idioma inglés no sólo por cuestiones laborales 
+                (contar con un buen nivel de inglés es sin duda alguna una buena puerta 
+                de ingreso a mejores puestos laborales) si no también para comunicarse, 
+                para poder acceder a mayor conocimiento e información.</p>
+            <li>Cursos empresariales a domicilio.</li>
+            <div>
+                <p>Inglés al alcance de su empresa. Los cursos empresariales han sido diseñados para cubrir las necesidades de tiempo y presupuesto de compañías que buscan que su personal hable inglés en el menor tiempo posible.</p>
+                <ul>
+                    <li>Expandir su Mercado a nuevos horizontes.</li>
+                    <li>Ofrecer sus productos y servicios en inglés.</li>
+                    <li>Vender en el extranjero.</li>
+                    <li>Fortalecer sus negocios internacionalmente.</li>
+                    <li>Capacitar personal en otros países.</li>
+                </ul>
+            </div>
+            <br>
+            <li>Cursos personalizados a domicilio.</li>
+            <p>Los cursos de inglés personalizados de SpeakChron están diseñados 
+                para que aprendas a pensar, a hablar y entender el idioma con una excelente 
+                estructura y pronunciación, leer con una entonación de forma natural así 
+                como fluída, escribir con una correcta ortografía, en tiempo record. 
+                Una manera muy rápida de aprender a hablar Inglés.</p>
+            <li>Traducciones.</li>
+            <li>E-Commerce.</li>
+            <li>Interpretaciones.</li>
+        </ol>
     </section>
-
-    <section id="contact">
-        <h1>Contacto</h1>
-    </section>
-    
+    <br>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <div class="text-center">
+                    <h4>Hechos, no palabras …solo SpeakChron</h4>
+                    <p>Llámanos +52 (55) 000000000</p>
+                    <p>Completa el siguiente formulario para recibir información.</p>
+                </div>
+            </div>
+        </div>
+      </footer>
     <script src="./dist/bundle.js"></script>
 </body>
 </html>
