@@ -2,6 +2,13 @@
 
 $primary: #ff0000;
 
+.hide-alert{
+  display: none;
+}
+
+.show-alert{
+  display: block;
+}
 /* define car columns*/
 .card-columns {
     @include media-breakpoint-only(lg) {
