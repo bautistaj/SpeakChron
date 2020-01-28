@@ -27,13 +27,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./dist/img/slide01.jpg" class="d-block w-100" alt="...">
+                <img src="./dist/img/slide01.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./dist/img/slide02.jpg" class="d-block w-100" alt="...">
+                <img src="./dist/img/slide02.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./dist/img/slide03.jpg" class="d-block w-100" alt="...">
+                <img src="./dist/img/slide03.jpeg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,7 +50,7 @@
         <h1 class="text-primary">Inicio</h1>
         <div class="card-columns">
             <div class="card">
-                <img src="./dist/img/three.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/three.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-primary">Nuestra metodología y cursos</h5>
                     <p class="card-text">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./dist/img/two.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/two.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-primary">Método</h5>
                     <p class="card-text">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./dist/img/one.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/one.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-primary">Nuestros docentes</h5>
                     <p class="card-text">Son facilitadores que dominan su disciplina y que, 
@@ -84,6 +84,30 @@
                         de calidad que verifica los objetivos de nuestro sistema. </p>
                 </div>
             </div>
+        </div>
+        <h3 id="contact"class="text-primary">Contacto</h3>
+        <div>
+            <form>
+                <div class="form-group">
+                  <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Correo"/>
+                </div>
+                <div class="form-group">
+                  <input required type="text" class="form-control" id="name" placeholder="Nombre"/>
+                </div>
+                <div class="form-group">
+                    <input required type="number" class="form-control" id="telephone" placeholder="Teléfono"/>
+                </div>
+                <div class="form-group">
+                    <textarea required rows="3" class="form-control" id="comment" placeholder="Comentario"></textarea>
+                </div>
+                <div id="alert" class="alert alert-success alert-dismissible fade" role="alert">
+                    Tu información se envío correctamente
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <button onclick="sendEmail(event)" type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
         <h3 class="text-primary">¿Qué te ofrece SpeakChron?</h3>
         <div class="list-group">
@@ -174,13 +198,13 @@
         <br>
         <div class="card-columns">
             <div class="card">
-                <img src="./dist/img/herdez.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/uber.jpeg" class="card-img-top" alt="...">
             </div>
             <div class="card">
-                <img src="./dist/img/maya.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/maya.jpeg" class="card-img-top" alt="...">
             </div>
             <div class="card">
-                <img src="./dist/img/raimix.jpg" class="card-img-top" alt="...">
+                <img src="./dist/img/raimix.jpeg" class="card-img-top" alt="...">
             </div>
         </div>
     </section>
@@ -221,7 +245,7 @@
         <div class="row">
             <div class="col-06 col-md">
                 <div class="text-center">
-                    <h4>Hechos, no palabras …solo SpeakChron</h4>
+                    <h4>Fly The Highest..</h4>
                     <p>Llámanos 5572260664</p>
                     <p>Completa el siguiente formulario para recibir información.</p>
                 </div>
@@ -229,30 +253,6 @@
                     <h4>Redes sociales</h4>
                     <a href="https://www.facebook.com/SpeakChron/"><img src="/dist/img/facebook.png" alt=""></a>
                 </div>
-            </div>
-            
-            <div id="contact" class="col-06 col-md">
-                <form>
-                    <div class="form-group">
-                      <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Correo"/>
-                    </div>
-                    <div class="form-group">
-                      <input required type="text" class="form-control" id="name" placeholder="Nombre"/>
-                    </div>
-                    <div class="form-group">
-                        <input required type="number" class="form-control" id="telephone" placeholder="Teléfono"/>
-                    </div>
-                    <div class="form-group">
-                        <textarea required rows="3" class="form-control" id="comment" placeholder="Comentario"></textarea>
-                    </div>
-                    <div id="alert" class="alert alert-success alert-dismissible fade" role="alert">
-                        Tu información se envío correctamente
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <button onclick="sendEmail(event)" type="submit" class="btn btn-primary">Enviar</button>
-                </form>
             </div>
         </div>
       </footer>
