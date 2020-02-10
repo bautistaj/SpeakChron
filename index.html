@@ -7,10 +7,11 @@
     <meta descript>
     <title>SpeakChron especializada en la enseñanza del idioma Inglés</title>
     <meta name="description" content="SpeakChron es una escuela especializada en la enseñanza del idioma Inglés con estrictos estándares de calidad.">
+    <link rel="icon" href="./dist/img/favicon.ico">
 </head>
 <body class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">SpeakChron</a>
+        <img src="./dist/img/SpeakChronlogo.jpg" href="#" alt="SpeakC">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,12 +48,12 @@
     </div>
     <br>
     <section id="home">
-        <h1 class="text-primary">Inicio</h1>
+        <h1 class="speak-title">Inicio</h1>
         <div class="card-columns">
             <div class="card">
                 <img src="./dist/img/three.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Nuestra metodología y cursos</h5>
+                    <h5 class="card-title speak-title">Nuestra metodología y cursos</h5>
                     <p class="card-text">
                             En la nueva era de la globalización Ser bilingüe es una necesidad para todos y cada uno de nosotros, 
                             con SpeakChron el objetivo de ser bilingüe puede ser alcanzado con éxito, 
@@ -64,7 +65,7 @@
             <div class="card">
                 <img src="./dist/img/two.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Método</h5>
+                    <h5 class="card-title speak-title">Método</h5>
                     <p class="card-text">
                             En SpeakChron te enseñaremos desde el primer momento a estructurar y entender el idioma, 
                             llevando a cabo 4 habilidades fundamentales (hablar, escuchar, escribir y leer) 
@@ -75,7 +76,7 @@
             <div class="card">
                 <img src="./dist/img/one.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Nuestros docentes</h5>
+                    <h5 class="card-title speak-title">Nuestros docentes</h5>
                     <p class="card-text">Son facilitadores que dominan su disciplina y que, 
                         a través de metodologías activas, 
                         ofrecen las herramientas necesarias para que los estudiantes comprendan el mundo desde diversos lenguajes, 
@@ -85,10 +86,18 @@
                 </div>
             </div>
         </div>
-        <h3 id="contact"class="text-primary">Contacto</h3>
-        <p>5572260664</p>
+        <h3 id="contact"class="speak-title">Contacto</h3>
+        <p>55 3928 6442, 55 7226 0664 </p>
+        <p>contacto@speakchron.com</p>
+        <p>Completa el siguiente formulario para recibir información.</p>
         <div>
             <form>
+                <div id="alert" class="alert alert-success alert-dismissible fade" role="alert">
+                    Tu información se envío correctamente
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="form-group">
                   <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Correo"/>
                 </div>
@@ -101,17 +110,12 @@
                 <div class="form-group">
                     <textarea required rows="3" class="form-control" id="comment" placeholder="Comentario"></textarea>
                 </div>
-                <div id="alert" class="alert alert-success alert-dismissible fade" role="alert">
-                    Tu información se envío correctamente
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
+                
                 <button onclick="sendEmail(event)" type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
         <br>
-        <h3 class="text-primary">¿Qué te ofrece SpeakChron?</h3>
+        <h3 class="speak-title">¿Qué te ofrece SpeakChron?</h3>
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action">Obtendrás clases con conversación en el idioma en todo momento.</a>
             <a href="#" class="list-group-item list-group-item-action">Aprenderás en un ambiente agradable, cordial y entretenido.</a>
@@ -124,7 +128,7 @@
     </section>
     <br>
     <section id="aboutus">
-        <h3 class="text-primary">Misión</h3>
+        <h3 class="speak-title">Misión</h3>
         <p>
             Somos una escuela especializada en la enseñanza del idioma Inglés con estrictos estándares de calidad y personal 
             altamente capacitado. En SpeakChron estámos comprometidos con México y su educación, 
@@ -132,21 +136,21 @@
             Continuar pasivos como la gran mayoría de organizaciones dedicadas a la educación ó recapacitar y 
             asumir con valor y seriedad el reto de educar.  
         </p>
-        <h3 class="text-primary">Visión</h3>
+        <h3 class="speak-title">Visión</h3>
         <p>
             Nuestro objetivo es marcar diferencia en nuestra sociedad siendo así la mejor opción a nivel nacional e internacional,
             cumpliendo todas y cada una de las expectativas de nuestro alumnos, 
             siendo eficaces con nuestro sistema y empleando un control de calidad para otorgar un servicio que dé 
             resultados a corto plazo.  
         </p>
-        <h3 class="text-primary">Valores</h3>
+        <h3 class="speak-title">Valores</h3>
         <p>
             Para tener éxito en SpeakChron es importante que sus miembros empleen: 
             respeto, humildad, honestidad lealtad y disciplina dentro y fuera de la empresa, 
             ya que como educadores deberán enseñar con el ejemplo.
         </p>
 
-        <h3 class="text-primary">¿Por qué elegir SpeakChron?</h3>
+        <h3 class="speak-title">¿Por qué elegir SpeakChron?</h3>
         <br>
         <div id="accordion">
             <div class="card">
@@ -196,23 +200,23 @@
             </div>
         </div>
         <br>
-        <h3 class="text-primary">Nuestros clientes</h3>
+        <h3 class="speak-title">Nuestros clientes</h3>
         <br>
         <div class="card-columns">
             <div class="card">
-                <img src="./dist/img/uber.jpeg" class="card-img-top" alt="...">
+                <img src="./dist/img/uber.png" class="card-img-top" alt="...">
             </div>
             <div class="card">
-                <img src="./dist/img/maya.jpeg" class="card-img-top" alt="...">
+                <img src="./dist/img/maya.jpg" class="card-img-top" alt="...">
             </div>
             <div class="card">
-                <img src="./dist/img/raimix.jpeg" class="card-img-top" alt="...">
+                <img src="./dist/img/raimix.jpg" class="card-img-top" alt="...">
             </div>
         </div>
     </section>
     <br>
     <section id="services">
-        <h1 class="text-primary">Servicios y Cursos</h1>
+        <h1 class="speak-title">Servicios y Cursos</h1>
         <ol>
             <li>Cursos semi-intensivos con duración de 1.5 hrs 4 días a la semana.</li>
             <p>Hoy en día es esencial capacitarse en el idioma inglés no sólo por cuestiones laborales 
@@ -248,10 +252,8 @@
             <div class="col-06 col-md">
                 <div class="text-center">
                     <h4>Fly The Highest..</h4>
-                    <p>Completa el siguiente formulario para recibir información.</p>
                 </div>
                 <div class="text-center">
-                    <h4>Redes sociales</h4>
                     <a href="https://www.facebook.com/SpeakChron/"><img src="/dist/img/facebook.png" alt=""></a>
                 </div>
             </div>
@@ -273,9 +275,7 @@
             var alert = document.getElementById("alert");
 
             if(email !== '' && name !== '' && telephone !== '' && comment !== ''){
-                emailjs.init("user_Q9kCcSmt6oDXez3WESE53");
-                console.log("Eviar correo");
-                
+                emailjs.init("user_Q9kCcSmt6oDXez3WESE53");                
                 var templateParams = {
                     email: email,
                     name: name,

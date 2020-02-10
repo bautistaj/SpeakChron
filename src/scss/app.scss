@@ -1,13 +1,23 @@
 @import "~bootstrap/scss/bootstrap";
 
-$primary: #00008b;
+body {
+  color: black;
+}
+$text-primary: #00008b;
 
+.speak-title {
+  color: #00008b;
+}
 .hide-alert{
   display: none;
 }
 
 .show-alert{
   display: block;
+}
+
+.sticky-top {
+  padding-left: 0;
 }
 /* define car columns*/
 .card-columns {
